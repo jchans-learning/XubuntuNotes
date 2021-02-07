@@ -49,6 +49,11 @@ $ sudo vi ~/.zshrc
 $ zsh
 ```
 
+Terminal default geometry
+- 120 col
+- 36 row
+
+
 #### Hide username and hostname
 
 - https://www.programmersought.com/article/22513997246/
@@ -76,5 +81,8 @@ $ sudo apt-get install -y nodejs
 ### Install Yarn
 
 ```
-$ npm install -g yarn
+$ sudo npm install -g yarn
 ```
+
+
+npm install -g yarn
