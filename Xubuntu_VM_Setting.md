@@ -2,6 +2,10 @@
 
 ## Some Universal Tools
 
+### Setting Fireforx Preference
+
+- Startup with previous session.
+
 ### Install Git
 
 ```
@@ -31,11 +35,32 @@ $ sudo apt install curl
 
 - Instructions from: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - Instructions from: https://ohmyz.sh/#install
+- https://tecadmin.net/how-to-install-zsh-on-ubuntu-20-04/
 
 ```
 $ apt install zsh
+$ chsh -s $(which zsh)
+$ sudo apt install git-core curl fonts-powerline
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+$ sudo vi ~/.zshrc 
+# set ZSH_THEME="agnoster"
+
+$ zsh
 ```
+
+#### Hide username and hostname
+
+- https://www.programmersought.com/article/22513997246/
+- Modify the .zshrc file add prompt_context() {} at the buttom of the file
+
+
+```
+prompt_context() {}
+
+```
+
+
 
 ## Install Web Dev Tools
 
