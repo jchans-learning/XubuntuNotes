@@ -8,7 +8,7 @@
 
 ### VirtualBox VM Fullscreen and Resize Guest Display
 
-Referemce:
+#### Reference
 
 - https://kifarunix.com/install-virtualbox-guest-additions-on-ubuntu-20-04/
 - https://askubuntu.com/questions/1324732/ubuntu-20-04-under-virtualbox-does-not-auto-resize-guest-display
