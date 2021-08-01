@@ -71,6 +71,7 @@ $ sudo apt install curl
 - Instructions from: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - Instructions from: https://ohmyz.sh/#install
 - https://tecadmin.net/how-to-install-zsh-on-ubuntu-20-04/
+- https://joechang0113.github.io/2020/03/23/ubuntu-install-oh-my-zsh.html
 
 ```
 $ sudo apt install zsh
@@ -84,7 +85,9 @@ $ sudo vi ~/.zshrc
 $ zsh
 ```
 
-Terminal default geometry
+You will need to restart the system for the zsh shell to work without bash.
+
+#### Terminal default geometry
 
 - 120 col
 - 36 row
