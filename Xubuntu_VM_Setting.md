@@ -73,7 +73,7 @@ $ sudo apt install curl
 - https://tecadmin.net/how-to-install-zsh-on-ubuntu-20-04/
 
 ```
-$ apt install zsh
+$ sudo apt install zsh
 $ chsh -s $(which zsh)
 $ sudo apt install git-core curl fonts-powerline
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
