@@ -1,6 +1,16 @@
 # Setting Web Dev Enviornment for Xubuntu VM on Win 10
 
+## TODO
+
+- [ ] Try writing a shell script for quick install.
+
 ## Some Universal Tools
+
+### Install Chewing Input Method (fcitx)
+
+```
+$ sudo apt-get install fcitx fcitx-chewing
+```
 
 ### Setting Fireforx Preference
 
