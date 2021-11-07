@@ -123,9 +123,21 @@ $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
 
+### nvm
+
+TBD: https://github.com/nvm-sh/nvm
+
 ### Install Yarn
 
 ```
 $ sudo npm install -g yarn
 $ npm install -g yarn
+```
+
+## Miscellaneous
+
+### BBS
+
+```bash terminal command to connect to ptt.cc
+luit -encoding big5 telnet ptt.cc
 ```
